@@ -3,108 +3,83 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Srinivas Kongara</title>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+<title>Knowledge</title>
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1f2937}
-.hero img{
-    width:180px;height:180px;border-radius:50%;
-    object-fit:cover;border:3px solid #e5e7eb;
+body{
+    background:#f3f4f6;
+    color:#111827;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    max-width:900px;
+    margin:0 auto;
+    padding:0 24px;
 }
-.card-hover{
-    transition:all .25s ease;
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:32px 0;
+    border-bottom:1px solid #d1d5db;
 }
-.card-hover:hover{
-    transform:translateY(-8px) scale(1.02);
-    box-shadow:0 16px 40px rgba(0,120,212,.18)!important;
+.brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:1.5rem;
+    font-weight:600;
 }
-.footer{
+.avatar{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    object-fit:cover;
+}
+nav a{
+    color:#4b5563;
+    text-decoration:none;
+    margin-left:24px;
+}
+nav a:hover{color:#111827;}
+.article{
+    padding:36px 0;
+    border-top:1px solid #e5e7eb;
+}
+.article a{
+    color:#111827;
+    text-decoration:none;
+    font-size:2rem;
+    font-weight:700;
+}
+.article a:hover{color:#2563eb;}
+.date{color:#6b7280;margin-top:12px;}
+footer{
+    border-top:1px solid #d1d5db;
+    margin-top:60px;
+    padding:24px 0;
     color:#6b7280;
-    font-size:.95rem;
 }
 </style>
 </head>
-
 <body>
-
-<nav class="navbar navbar-expand-lg bg-white border-bottom">
-<div class="container">
-<a class="navbar-brand fw-semibold" href="#">Srinivas Kongara</a>
-
-<div class="navbar-nav ms-auto">
-    <a class="nav-link" href="knowledge/">Knowledge</a>
-    <a class="nav-link" href="notes/">Notes</a>
-    <a class="nav-link" href="speaking/">Speaking</a>
-    <a class="nav-link" href="about/">About</a>
+<header>
+<div class="brand">
+<img class="avatar" src="images/profile2025.jpg" alt="Srinivas Kongara">
+<span>Srinivas Kongara</span>
 </div>
-</div>
+<nav>
+<a href="index.html">Knowledge</a>
+<a href="about.html">About</a>
 </nav>
+</header>
 
-<section class="hero container text-center py-5">
 
-<img src="images/profile2025.jpg" alt="Srinivas Kongara">
-
-<h1 class="fw-semibold mt-4">
-    Srinivas Kongara
-</h1>
-
-<p class="lead text-secondary">
-    AI Knowledge Architect | Engineering Learning | AI Enablement | Productivity Insights
-</p>
-
-<p class="fs-5">
-    Building practical knowledge systems for engineers, organizations, and AI.
-</p>
-
-</section>
-
-<div class="container pb-5">
-<div class="row g-4">
-
-<div class="col-md-3">
-<div class="card h-100 shadow-sm card-hover">
-<div class="card-body">
-<h2>Knowledge</h2>
-<p>Evergreen articles and frameworks.</p>
-</div>
-</div>
+<div class="article">
+<a href="#">Article-01:coming soon...!</a>
+<div class="date">May 2026</div>
 </div>
 
-<div class="col-md-3">
-<div class="card h-100 shadow-sm card-hover">
-<div class="card-body">
-<h2>Notes</h2>
-<p>Short observations and experiments.</p>
-</div>
-</div>
-</div>
 
-<div class="col-md-3">
-<div class="card h-100 shadow-sm card-hover">
-<div class="card-body">
-<h2>Speaking</h2>
-<p>Talks, sessions, workshops, and community contributions.</p>
-</div>
-</div>
-</div>
 
-<div class="col-md-3">
-<div class="card h-100 shadow-sm card-hover">
-<div class="card-body">
-<h2>About</h2>
-<p>My journey and perspective.</p>
-</div>
-</div>
-</div>
 
-</div>
-</div>
-
-<footer class="footer text-center py-4 border-top">
-© 2026 Srinivas Kongara. All rights reserved.
-</footer>
-
+<footer>© 2026 Srinivas Kongara</footer>
 </body>
 </html>
